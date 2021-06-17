@@ -1,0 +1,309 @@
+html{
+    height: 100vh;
+    width: 100vw;
+    font-size: 1vw;
+    background-image: linear-gradient(118.97deg, #000000 -3.88%, #2A6F89 18.45%, #000000 33.79%, #43082F 63.4%);
+}
+.background_first{
+    height: 135vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+.background_second{
+    position: relative;
+    width: 110vw;
+}
+.cosmic_main{
+    position: relative;
+    width: 100vw;
+    top: 80px;
+}
+    .circle, .circle_2{
+        position: absolute;
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        border: 1px solid #FFFFFF;
+    }
+.circle{
+    left: -13vw;
+    top: 46vh;
+}
+.circle_2{
+    right: -13vw;
+    top: 82vh;
+}
+.line{
+    position: absolute;
+    width: 0px;
+    height: 540px;
+    right: 0px;
+    top: 100vh;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-50deg);
+}
+.triangle{
+    position: absolute;
+    left: 0px;
+    top: calc(50% - 60vh/10 + 14vh);
+    width: 0px;
+    height: 0px;
+    border-left: 50vw solid transparent;
+	border-right: 50vw solid transparent;
+	border-bottom: 60vh solid black;
+}
+.background_black{
+    position: absolute;
+    height: 110vh;
+    width: 100vw;
+    background: black;
+}
+.pink_spot{
+    position: absolute;
+    height: 100vh;
+    width: 80vw;
+    left: calc(50% - 90vw/2);
+    background: radial-gradient(56.14% 59.54% at 50% 50%, rgba(67, 8, 47, 0.5) 0%, rgba(67, 8, 47, 0) 100%);
+}
+    .triangle_down_1, .triangle_down_2, .triangle_down_3{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 40px solid white;
+    }
+.triangle_down_1{
+    top: 44vh;
+    left: 16vw;
+}
+.triangle_down_2{
+    top: 50vh;
+    left: 16vw;
+}
+.triangle_down_3{
+    top: 56vh;
+    left: 16vw;
+}
+.dashed_line{
+    position: absolute;
+    height: 60vh;
+    width: 60vw;
+    left: calc(50% - 8vw);
+    top: calc(50% - 50vh + 12vh );
+}
+.ellipse_white{
+    position: absolute;
+    height: 75vh;
+    width: 75vw;
+    left: calc(50% - 75vw/2);
+    top: calc(50% - 70vh + 10vh );
+}
+.ellipse_blue{
+    position: absolute;
+    height: 70vh;
+    width: 70vw;
+    left: calc(50% - 63.5vw/2);
+    top: calc(50% - 63vh + 10vh );
+}
+.thin_ellipse_white{
+    position: absolute;
+    height: 55vh;
+    width: 40vw;
+    left: calc(50% - 40.5vw/2);
+    top: calc(50% - 55vh + 5.5vh );
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+    .romb_1, .romb_2, .romb_3{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background: white;
+    }
+.romb_1{
+    top: 18vh;
+    left: 55vw;
+    transform: rotate(61.58deg);
+}
+.romb_2{
+    top: 66vh;
+    left: 60.5vw;
+    transform: rotate(94.9deg);
+}
+.romb_3{
+    top: 50vh;
+    left: 29vw;
+    transform: rotate(32.3deg);
+}
+.header{
+    position: fixed;
+    width: 94vw;
+    display: flex;
+    height: 4vh;
+    margin: 40px 40px 0 40px;
+    justify-content: space-between;
+}
+.logo{
+    position: absolute;
+    color: white;
+    font-family: 'Prosto One', cursive;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all .1s ease-in;
+}
+.burger_menu{
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    top: 0;
+    right: 0;
+}
+.burger_menu span{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 10px;
+    background: white;
+}
+.background_first h1{
+    position: absolute;
+    top: 35vh;
+    left: 25vw;
+    width: 50%;
+    color: white;
+    font-family: 'Prosto One', cursive;
+    font-size: 80px;
+    line-height: 90.69%;
+    text-align: center;
+}
+    h3{
+        position: absolute;
+        color: white;
+        font-family: 'Play', sans-serif;
+        font-size: 24px;
+        line-height: 97.69%;
+        text-decoration: none;
+
+    }
+.background_first h3{
+    margin-top: 40px;
+    top: 50vh;
+    left: 35vw;
+    width: 30%;
+    text-align: center;
+}
+    h4{
+        position: absolute;
+        color: white;
+        font-family: 'Play', sans-serif;
+        font-size: 20px;
+        line-height: 97.69%;
+        text-decoration: none;
+    }
+.background_first h4{
+    top: 82vh;
+    left: 0vw;
+    width: 100%;
+    text-align: center;
+}
+.arrow{
+    position: absolute;
+    top: 85vh;
+    left: 49.8vw;
+}
+    h2{
+        position: absolute;
+        color: white;
+        font-family: 'Play', sans-serif;
+        font-size: 72px;
+        line-height: 97.69%;
+        text-decoration: none;
+    }
+.background_second h2{
+    top: 8vh;
+    left: -5vw;
+    width: 100%;
+    text-align: center;
+}
+.button{
+    position: relative;
+    width: 1120px;
+    height: 85px;
+    font-size: 0px;
+    top: 24vh;
+    left: calc(50% - 1120px/2 - 5VW);
+}
+.button .button_click{
+    width: 19.5%;
+    height: 100%;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+}
+.button_click:hover{
+    background: rgba(255, 255, 255, 0.7);
+}
+.button_click:active{
+    background: white;
+}
+.butan{
+    position: relative;
+    width: 1120px;
+    height: 360px;
+    top: 24vh;
+    left: calc(50% - 1120px/2 - 5VW);
+    margin-top: 9vh;
+}
+.butan_text{
+    display: block;
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+.button_flight{
+    cursor: pointer;
+    position: absolute;
+    width: 280px;
+    height: 80px;
+    left: 44vw;
+    top: 32vh;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F8F8F8 7.29%, #D5D5D5 94.27%, #ACBCC2 100%);
+    box-shadow: 0 1px rgb(255 255 255 / 20%) inset, 0 3px 5px rgb(0 1 6 / 50%), 0 0 1px 1px rgb(0 1 6 / 20%);
+    border-radius: 44px;
+    transition: .2s ease-in-out;
+}
+.button_flight:hover{
+    background: linear-gradient(180deg, #FFFFFF 0%, #f0f0f0 7.29%, #bdbdbd 94.27%, #9facb1 100%);
+}
+.button_flight:active{
+    background: linear-gradient(180deg,  #4e4e4e 0%,  #505050 100%);
+    box-shadow:
+     0 0 1px rgba(0, 0, 0, 0.637) inset,
+     0 2px 3px rgba(0, 0, 0, 0.76) inset,
+     0 1px 1px rgba(255, 255, 255, 0.5);
+  }
+.button_flight h3{
+    color: black;
+    text-align: center;
+}
+.footer{
+    position: relative;
+    width: 94vw;
+    top: 25vh;
+    display: flex;
+    height: 4vh;
+    margin: 160px 40px 40px 40px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.icon{
+    margin-right: 20px;
+}
+.footer h4{
+    right: 0;
+}

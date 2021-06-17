@@ -1,0 +1,73 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+body{
+    background-color: black;
+}
+.content{
+    width: 100vw;
+    height: 190vh;
+    position: relative;
+    overflow: hidden;
+}
+.header{
+    position: fixed;
+    width: 94vw;
+    display: flex;
+    height: 4vh;
+    top: 0vh;
+    margin: 40px 40px 0 40px;
+    justify-content: flex-end;
+}
+.close{
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    right: 0px;
+}
+.close:after, .close:before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    right: 20px;
+    border: 1px solid #FFFFFF;
+}
+.close:after{
+    transform: rotate(45deg);
+}
+.close:before{
+    transform: rotate(-45deg);
+}
+.mountain{
+    position: absolute;
+    width: 100vw;
+    bottom: 0vh;
+    top: 90vh;
+}
+.planet{
+    position: relative;
+    width: 100vw;
+    top: 0vh;
+    left: 0vw;
+}
+.cosmic{
+    position: absolute;
+    width: 100vw;
+    top: 120px;
+    left: 0vw;
+}
+.lines{
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    top: 0vh;
+}
+.main_line{
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    left: 50vw;
+    border: 1px solid #FFFFFF;
+}
+

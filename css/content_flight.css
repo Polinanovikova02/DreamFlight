@@ -1,0 +1,132 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 94vw;
+    display: flex;
+    height: 4vh;
+    margin: 40px 40px 0 40px;
+    justify-content: space-between;
+}
+.logo{
+    position: absolute;
+    color: white;
+    font-family: 'Prosto One', cursive;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all .1s ease-in;
+}
+.burger_menu{
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    top: 0;
+    right: 0;
+}
+.burger_menu span{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 10px;
+    background: white;
+}
+h1{
+    position: absolute;
+    top: 28vh;
+    width: 100%;
+    color: white;
+    font-family: 'Prosto One';
+    font-size: 80px;
+    line-height: 90.69%;
+    text-align: center;
+    margin-bottom: 9vh;
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 44.5vh;
+}
+.time_section_1, .time_section_2, .time_section_3, .time_section_4{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    justify-content: flex-end;
+    width: 240px;
+    height: 280px;
+    color: white;
+    font-family: 'Play';
+}
+.count{
+    font-size: 72px;
+}
+.units{
+    font-size: 24px;
+    margin-top: 100px;
+}
+.ellipse_1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: none;
+    top: 0;
+}
+.ellipse_1:after{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    top: 8%;
+    left: -2%;
+    width: 180px;
+    height: 180px;   
+    border-left: 14px solid rgba(255, 255, 255, 0);
+    border-right: 14px solid #ffffff;
+    border-top: 14px solid white;
+    border-bottom: 14px solid white;
+    transform: rotate(135deg);
+}
+.ellipse_2{
+    position: absolute;
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    border: none;
+    top: 13.5%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(67, 8, 47, 0) 70.83%, #43082F 100%);
+}
+.time_section_2 .ellipse_1:after{
+    border-left: 14px solid rgb(255, 255, 255);
+    border-right: 14px solid #ffffff;
+    border-top: 14px solid rgba(255, 255, 255, 0);
+    border-bottom: 14px solid white;
+}
+.time_section_3 .ellipse_1:after{
+    border-left: 14px solid rgb(255, 255, 255);
+    border-right: 14px solid #ffffff;
+    border-top: 14px solid rgb(255, 255, 255);
+    border-bottom: 14px solid rgba(255, 255, 255, 0);
+}
+.time_section_4 .ellipse_1:after{
+    border-left: 14px solid rgb(255, 255, 255);
+    border-right: 14px solid #ffffff00;
+    border-top: 14px solid rgb(255, 255, 255);
+    border-bottom: 14px solid white;
+}
+.line{
+    position: absolute;
+    margin-top: 80px;
+    width: 0px;
+    height: 87%;
+    border: 1px solid #FFFFFF;
+}
