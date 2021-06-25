@@ -13,7 +13,7 @@ body{
     width: 94vw;
     display: flex;
     height: 4vh;
-    margin: 40px 40px 0 40px;
+    padding: 40px 40px 40px 40px;
     justify-content: space-between;
 }
 .logo{
@@ -29,7 +29,7 @@ body{
     position: absolute;
     width: 80px;
     height: 20px;
-    top: 0;
+    margin-right: 40px;
     right: 0;
 }
 .burger_menu span{
@@ -126,7 +126,117 @@ h1{
 .line{
     position: absolute;
     margin-top: 80px;
+    margin-bottom: 80px;
     width: 0px;
-    height: 87%;
+    height: 22.5%;
     border: 1px solid #FFFFFF;
+    top: calc(50vh + 30vh);
+}
+.background{
+    position: relative;
+    width: 100vw;
+    top: 70vh;
+}
+.cosmic{
+    position: absolute;
+    width: 100vw;
+    top: -15vh;
+}
+.fog{
+    position: absolute;
+    width: 100vw;
+    top: 4vh;
+}
+.triangle{
+    position: absolute;
+    left: 0px;
+    top: 86vh;
+    width: 0px;
+    height: 0px;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-bottom: 60vh solid black;
+}
+table {
+    position: absolute;
+    width: 87.5%;
+    border-collapse: collapse;
+    top: 120vh;
+  }
+  th, td {
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-family: 'Play';
+    padding: 25px 10px;
+  }
+  th:nth-of-type(1){
+      width: 14%;
+  }
+  th:nth-of-type(2){
+    width: 32%;
+}
+th:nth-of-type(3), th:nth-of-type(4), th:nth-of-type(5){
+    width: 18%;
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    top: calc(150vh + 22vh);
+    margin-top: 80px;
+    height: 80px;
+    width: 800px;
+    justify-content: space-between;
+}
+.button_1,.button_2{
+    position: absolute;
+    height: 80px;
+    width: 360px;
+    top: 0;
+    font-family: 'Play';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 97.69%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center
+}
+.button_1{
+    background: #2A6F89;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 44px;
+    left: 0;
+}
+.button_2{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 44px;
+    right: 0;
+}
+h4{
+    position: absolute;
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    line-height: 97.69%;
+    text-decoration: none;
+}
+.footer{
+    position: absolute;
+    width: 94vw;
+    bottom: 0;
+    top: 190vh;
+    display: flex;
+    height: 4vh;
+    margin: 160px 40px 40px 40px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.icon{
+    margin-right: 20px;
+}
+.footer h4{
+    right: 0;
 }

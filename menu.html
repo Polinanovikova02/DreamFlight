@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
     <link rel="stylesheet" href="css/content_menu.css">
 
     <title>Dream Flight</title>
+    
 </head>
 <body>
     <div class="content" >
@@ -16,15 +20,21 @@
 
         <div class="lines" >
             <div class="main_line" ></div>
+            <div class="width_line" ></div>
+            <img src="img/menu/lines.svg" class="horizontal" alt="">
         </div>
+
+        <a href="about us.html" class="text_menu_1" >О нас</a>
+        <a href="flight.html" class="text_menu_2" >Рейсы</a>
+        <a href="shop.html" class="text_menu_3" >Магазин</a>
+        <a href="crew.html" class="text_menu_4" >Экипаж</a>
+        <a href="gallery.html" class="text_menu_5" >Галерея</a>
 
         <div class="header" >
-            <div class="close" ></div>
+            <a onclick="javascript:history.back();return false;">
+                <div class="close" ></div>
+           </a>
         </div>
-
-        
     </div>
-
-
 </body>
 </html>

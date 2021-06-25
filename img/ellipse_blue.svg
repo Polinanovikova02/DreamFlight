@@ -1,17 +1,17 @@
-<svg width="637" height="616" viewBox="0 0 637 616" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M18.635 273.888C17.9352 132.929 128.848 18.1055 266.365 17.4228" stroke="url(#paint0_radial)" stroke-width="33"/>
-<path d="M439.264 69.1092C548.163 155.704 567.836 315.708 483.204 426.488" stroke="url(#paint1_radial)" stroke-width="33"/>
-<path d="M370.916 508.922C245.484 567.89 97.0368 512.344 39.3486 384.858" stroke="url(#paint2_radial)" stroke-width="33"/>
+<svg width="639" height="611" viewBox="0 0 639 611" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.635 273.888C17.9352 132.928 128.848 18.105 266.365 17.4223" stroke="url(#paint0_radial)" stroke-width="33"/>
+<path d="M439.435 71.3433C549.216 156.818 570.526 316.612 487.033 428.253" stroke="url(#paint1_radial)" stroke-width="33"/>
+<path d="M371.253 509.197C244.335 564.895 97.377 505.521 43.0117 376.582" stroke="url(#paint2_radial)" stroke-width="33"/>
 <defs>
-<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(267.632 272.652) rotate(-0.380063) scale(265.051 269.599)">
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(267.632 272.651) rotate(-0.380063) scale(265.051 269.599)">
 <stop offset="0.890625" stop-color="#128BB6" stop-opacity="0"/>
 <stop offset="1" stop-color="#128BB6" stop-opacity="0.81"/>
 </radialGradient>
-<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(286.025 269.695) rotate(127.285) scale(268.702 266.042)">
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(288.258 273.488) rotate(126.698) scale(268.702 266.042)">
 <stop offset="0.890625" stop-color="#128BB6" stop-opacity="0"/>
 <stop offset="1" stop-color="#128BB6" stop-opacity="0.81"/>
 </radialGradient>
-<radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(266.462 278.087) rotate(-114.439) scale(269.694 265.063)">
+<radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(272.816 275.733) rotate(-112.954) scale(269.694 265.063)">
 <stop offset="0.890625" stop-color="#128BB6" stop-opacity="0"/>
 <stop offset="1" stop-color="#128BB6" stop-opacity="0.81"/>
 </radialGradient>

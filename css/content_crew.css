@@ -1,0 +1,241 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+html{
+    width: 100vw;
+    font-size: 1vw;
+    background-image: linear-gradient(300.09deg, #000000 -22.94%, #43082F 8.16%, #000000 31.42%);
+}
+body{
+    width: 100vw;
+    height: 415vh;
+}
+.thin_ellipse{
+    position: absolute;
+    height: 520px;
+    width: 520px;
+    top: 85vh;
+    right: -20vw;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+.blue_ellipse{
+    position: absolute;
+    top: 81vh;
+    right: .5vw;
+}
+.cosmic_1{
+    position: absolute;
+    left: 0;
+    top: 125vh;
+}
+.cosmic_2{
+    position: absolute;
+    right: 0;
+    top: 265vh;
+}
+.violet_ellipse{
+    position: absolute;
+    height: 480px;
+    width: 480px;
+    top: 261.5vh;
+    left: 30vw;
+    border-radius: 50%;
+    border: none;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(67 8 47 / 0%) 67%, #43082fb3 100%)
+}
+h1 {
+    position: absolute;
+    top: 27vh;
+    width: 100%;
+    color: white;
+    font-family: 'Prosto One';
+    font-size: 80px;
+    line-height: 90.69%;
+    text-align: center;
+    margin-bottom: 9vh;
+}
+.pilot_1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    top: 34vh;
+    left: 6.3vw;
+    width: 480px;
+    height: 720px;
+    margin-top: 80px;
+}
+.img_pilot_1{
+    margin-bottom: 40px;
+}
+.text_pilot_1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+h2, h3, h4{
+    position: absolute;
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 97.69%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+h3{
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.pilot_2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    top: 32vh;
+    right: 6.3vw;
+    left: 56.3vw;
+    width: 480px;
+    height: 720px;
+    margin-top: 80px;
+}
+.img_pilot_2{
+    margin-bottom: 40px;
+}
+.text_pilot_2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+.button_1, .button_2{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 520px;
+    height: 78px;
+    left: calc(50% - 520px/2);
+    top: 205vh;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 44px;
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.button_1:hover, .button_2:hover{
+    background: linear-gradient(180deg, #FFFFFF 0%, #f0f0f0 7.29%, #bdbdbd 94.27%, #9facb1 100%);
+}
+.button_1:active, .button_2:active{
+    background: linear-gradient(180deg,  #4e4e4e 0%,  #505050 100%);
+    box-shadow:
+     0 0 1px rgba(0, 0, 0, 0.637) inset,
+     0 2px 3px rgba(0, 0, 0, 0.76) inset,
+     0 1px 1px rgba(255, 255, 255, 0.5);
+}
+.button_2{
+    top: 380vh;
+}
+.stewardess{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    top: 45vh;
+    left: 6.3vw;
+    width: 480px;
+    height: 640px;
+    margin-top: 80px;
+}
+.img_stewardess{
+    margin-bottom: 40px;
+}
+.text_stewardess{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+.dispatcher{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    top: 45vh;
+    right: 6.3vw;
+    left: 56.3vw;
+    width: 480px;
+    height: 640px;
+    margin-top: 80px;
+}
+.img_dispatcher{
+    margin-bottom: 40px;
+}
+.text_dispatcher{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 43%;
+}
+.footer{
+    position: relative;
+    width: 94vw;
+    top: 60vh;
+    display: flex;
+    height: 4vh;
+    margin: 160px 40px 40px 40px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.icon{
+    margin-right: 20px;
+}
+.footer h4{
+    right: 0;
+    font-size: 18px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 94vw;
+    display: flex;
+    height: 4vh;
+    margin: 40px 40px 0 40px;
+    justify-content: space-between;
+}
+.logo{
+    position: absolute;
+    color: white;
+    font-family: 'Prosto One', cursive;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all .1s ease-in;
+}
+.burger_menu{
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    top: 0;
+    right: 0;
+}
+.burger_menu span{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 10px;
+    background: white;
+}

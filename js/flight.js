@@ -42,4 +42,4 @@ function countdown(dateEnd) {
     }
     function display(days, hours, minutes, seconds) {}
   }
-  countdown ('09/09/2021 02:00:00 AM');
+  countdown ('20/07/2021 08:00:00 AM');

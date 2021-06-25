@@ -1,0 +1,191 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+body{
+    height: 434vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+h1{
+    position: absolute;
+    top: 28vh;
+    width: 70%;
+    color: white;
+    font-family: 'Prosto One';
+    font-size: 80px;
+    line-height: 90.69%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+h2{
+    position: absolute;
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 97.69%;
+    color: #FFFFFF;
+    width: 45%;
+}
+.container_1{
+    position: relative;
+    display: flex;
+    height: 330px;
+    width: 87.5%;
+    top: -137vh;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+.img_1,.img_3{
+    position: absolute;
+    float: right;
+    right: 0;
+}
+.img_2{
+    position: absolute;
+    top: 100vh;
+    left: 6.3vw;
+    margin-bottom: 160px;
+}
+.container_2{
+    position: absolute;
+    display: flex;
+    height: 240px;
+    width: 87.5%;
+    justify-content: space-between;
+    margin-bottom: 160px;
+    top: 145vh;
+}
+.container_3{
+    position: absolute;
+    display: flex;
+    height: 320px;
+    width: 87.5%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    top: 190vh;
+}
+.container_3 h2{
+    width: 50%;
+    position: absolute;
+    float: right;
+    right: 0;
+}
+.img_5{
+    position: absolute;
+    top: 234vh;
+    margin-bottom: 160px;
+}
+.container_4{
+    position: absolute;
+    display: flex;
+    height: 320px;
+    width: 87.5%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    top: 270vh;
+}
+.container_4 h2{
+    width: 50%;
+    position: absolute;
+    float: right;
+    right: 0;
+}
+.text_teleport{
+    position: absolute;
+    left: 6.5vw;
+    top: 315vh;
+    width: 37%;
+    height: 160px;
+    margin-bottom: 80px;
+}
+.text_teleport h2{
+    width: auto;
+}
+.img_7{
+    position: absolute;
+    right: 6.5vw;
+    top: 342vh;
+    margin-bottom: 80px;
+}
+.container_5{
+    position: absolute;
+    display: flex;
+    height: 320px;
+    width: 56.3%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    top: 373vh;
+    left: 12.5vw;
+}
+.container_5 h2{
+    width: 30%;
+    position: absolute;
+    float: left;
+    left: 0;
+}
+.img_8{
+    position: absolute;
+    float: right;
+    right: 0;
+}
+h4{
+    position: absolute;
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    line-height: 97.69%;
+    text-decoration: none;
+}
+.footer{
+    position: absolute;
+    width: 94vw;
+    bottom: 0;
+    top: 408vh;
+    display: flex;
+    height: 4vh;
+    margin: 160px 40px 40px 40px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.icon{
+    margin-right: 20px;
+}
+.footer h4{
+    right: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 94vw;
+    display: flex;
+    height: 4vh;
+    padding: 40px 40px 40px 40px;
+    justify-content: space-between;
+    background: black;
+}
+.logo{
+    position: absolute;
+    color: white;
+    font-family: 'Prosto One', cursive;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all .1s ease-in;
+}
+.burger_menu{
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    margin-right: 40px;
+    right: 0;
+}
+.burger_menu span{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 10px;
+    background: white;
+}

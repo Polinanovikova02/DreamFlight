@@ -1,0 +1,222 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+html{
+    width: 100vw;
+    font-size: 1vw;
+    background-image: linear-gradient(76.44deg, #000000 48.24%, #43082F 82.25%);
+}
+body{
+    height: 340vh;
+}
+.cosmic_1{
+    position: absolute;
+    right: 0;
+    top: 35vh;
+}
+.cosmic_2{
+    position: absolute;
+    left: 0;
+    top: 155vh;
+}
+.cosmic_3{
+    position: absolute;
+    right: 0;
+    top: 220vh;
+}
+h1 {
+    position: absolute;
+    top: 27vh;
+    width: 100%;
+    color: white;
+    font-family: 'Prosto One';
+    font-size: 80px;
+    line-height: 90.69%;
+    text-align: center;
+    margin-bottom: 9vh;
+}
+.container_1{
+    position: relative;
+    top: 44vh;
+    left: 6.3vw;
+    width: 840px;
+    height: 370px;
+    margin-bottom: 160px;
+}
+.shop_text_1{
+    display: block;
+    width: 57%;
+    height: 50%;
+    padding-top: 90px;
+    float: right;
+}
+h2,h4{
+    position: absolute;
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 97.69%;
+    color: #FFFFFF;
+}
+h3{
+    position: absolute;
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 97.69%;
+    color: #FFB635;
+    padding-top: 70px;
+}
+h4{
+    text-decoration-line: line-through;
+    padding-top: 110px;
+    right: 120px;
+}
+.button{
+    cursor: pointer;
+    position: absolute;
+    width: 240px;
+    height: 80px;
+    top: 260px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 44px;
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.container_2{
+    position: relative;
+    top: 44vh;
+    float: right;
+    right: 6.3vw;
+    width: 920px;
+    height: 600px;
+    margin-bottom: 160px;
+}
+.pic_2,.pic_4{
+    position: absolute;
+    right: 0;
+    float: right;
+}
+.shop_text_2,.shop_text_4{
+    display: flex;
+    justify-content: flex-end;
+    width: 35%;
+    height: 50%;
+    padding-top: 200px;
+    float: left;
+}
+.shop_text_2 h4{
+    left: 30px;
+}
+.shop_text_2 .button{
+    top: 380px;
+}
+.container_3{
+    position: relative;
+    top: 130vh;
+    left: 6.3vw;
+    width: 920px;
+    height: 625px;
+    margin-bottom: 160px;
+}
+.pic_3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+}
+.shop_text_3{
+    position: absolute;
+    display: flex;
+    width: 35%;
+    height: 50%;
+    padding-top: 160px;
+    right: 80px;
+    float: right;
+    justify-content: flex-start;
+}
+.shop_text_3 h4{
+    right: -40px;
+}
+.shop_text_3 .button{
+    top: 340px;
+}
+.container_4{
+    position: relative;
+    top: 130vh;
+    float: right;
+    right: 6.3vw;
+    width: 680px;
+    height: 320px;
+    margin-bottom: 160px;
+}
+.shop_text_4{
+    padding-top: 60px;
+    margin-bottom: 40px;
+    width: 45%;
+}
+.shop_text_4 h4{
+    left: 20px;
+}
+.shop_text_4 .button{
+    top: 240px;
+}
+.footer{
+    position: absolute;
+    width: 94vw;
+    bottom: 0;
+    top: 313vh;
+    display: flex;
+    height: 4vh;
+    margin: 160px 40px 40px 40px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.icon{
+    margin-right: 20px;
+}
+.footer h4{
+    right: 0;
+    text-decoration-line: none;
+    padding-top: 0px;
+    top: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 94vw;
+    display: flex;
+    height: 4vh;
+    padding: 40px 40px 40px 40px;
+    justify-content: space-between;
+    background: none;
+}
+.logo{
+    position: absolute;
+    color: white;
+    font-family: 'Prosto One', cursive;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all .1s ease-in;
+}
+.burger_menu{
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    margin-right: 40px;
+    right: 0;
+}
+.burger_menu span{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 10px;
+    background: white;
+}

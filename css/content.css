@@ -1,5 +1,10 @@
+            .open{ animation: opacity .1s linear forwards;}
+                        @keyframes opacity{
+                            0% {opacity: 0;}
+                            100% {opacity: 1;}
+                        }
 html{
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     font-size: 1vw;
     background-image: linear-gradient(118.97deg, #000000 -3.88%, #2A6F89 18.45%, #000000 33.79%, #43082F 63.4%);
@@ -12,7 +17,8 @@ html{
 }
 .background_second{
     position: relative;
-    width: 110vw;
+    width: 100vw;
+    height: 110vh;
 }
 .cosmic_main{
     position: relative;
@@ -63,7 +69,7 @@ html{
     position: absolute;
     height: 100vh;
     width: 80vw;
-    left: calc(50% - 90vw/2);
+    left: 10vw;
     background: radial-gradient(56.14% 59.54% at 50% 50%, rgba(67, 8, 47, 0.5) 0%, rgba(67, 8, 47, 0) 100%);
 }
     .triangle_down_1, .triangle_down_2, .triangle_down_3{
@@ -73,6 +79,7 @@ html{
         border-left: 20px solid transparent;
         border-right: 20px solid transparent;
         border-top: 40px solid white;
+        margin-bottom: 1vh;
     }
 .triangle_down_1{
     top: 44vh;
@@ -90,29 +97,29 @@ html{
     position: absolute;
     height: 60vh;
     width: 60vw;
-    left: calc(50% - 8vw);
-    top: calc(50% - 50vh + 12vh );
+    left: 41vw;
+    top: 29vh;
 }
 .ellipse_white{
     position: absolute;
     height: 75vh;
     width: 75vw;
-    left: calc(50% - 75vw/2);
-    top: calc(50% - 70vh + 10vh );
+    left: 12.5vw;
+    top: 6.5vh;
 }
 .ellipse_blue{
     position: absolute;
     height: 70vh;
     width: 70vw;
-    left: calc(50% - 63.5vw/2);
-    top: calc(50% - 63vh + 10vh );
+    left: 18vw;
+    top: 14vh;
 }
 .thin_ellipse_white{
     position: absolute;
-    height: 55vh;
-    width: 40vw;
-    left: calc(50% - 40.5vw/2);
-    top: calc(50% - 55vh + 5.5vh );
+    height: 56vh;
+    width: 56vh;
+    left: 30vw;
+    top: 17.5vh;
     border-radius: 50%;
     border: 1px solid #FFFFFF;
 }
@@ -123,7 +130,7 @@ html{
         background: white;
     }
 .romb_1{
-    top: 18vh;
+    top: 17.5vh;
     left: 55vw;
     transform: rotate(61.58deg);
 }
@@ -134,11 +141,12 @@ html{
 }
 .romb_3{
     top: 50vh;
-    left: 29vw;
+    left: 29.7vw;
     transform: rotate(32.3deg);
 }
 .header{
     position: fixed;
+    top: 0;
     width: 94vw;
     display: flex;
     height: 4vh;
@@ -155,6 +163,7 @@ html{
 }
 .burger_menu{
     display: block;
+    cursor: pointer;
     position: absolute;
     width: 80px;
     height: 20px;
@@ -171,8 +180,8 @@ html{
 .background_first h1{
     position: absolute;
     top: 35vh;
-    left: 25vw;
-    width: 50%;
+    left: 35vw;
+    width: 30%;
     color: white;
     font-family: 'Prosto One', cursive;
     font-size: 80px;
@@ -186,7 +195,6 @@ html{
         font-size: 24px;
         line-height: 97.69%;
         text-decoration: none;
-
     }
 .background_first h3{
     margin-top: 40px;
@@ -224,46 +232,65 @@ html{
     }
 .background_second h2{
     top: 8vh;
-    left: -5vw;
     width: 100%;
     text-align: center;
 }
 .button{
     position: relative;
-    width: 1120px;
-    height: 85px;
+    display: flex;
+    width: 87.5vw;
+    height: 9.5vh;
     font-size: 0px;
     top: 24vh;
-    left: calc(50% - 1120px/2 - 5VW);
+    left: 6vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
-.button .button_click{
-    width: 19.5%;
+.button_click_1, .button_click_2,.button_click_3,.button_click_4,.button_click_5{
+    width: 20%;
     height: 100%;
-    display: inline-block;
+    display: flex;
     margin: 0px;
     padding: 0px;
     border: 1px solid #FFFFFF;
     text-align: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
 }
-.button_click:hover{
-    background: rgba(255, 255, 255, 0.7);
+.button_click_1:hover,.button_click_2:hover,.button_click_3:hover,.button_click_4:hover,.button_click_5:hover{
+    background: rgba(255, 255, 255, 0.5);
 }
-.button_click:active{
-    background: white;
+.button_click_1:active,.button_click_2:active,.button_click_3:active,.button_click_4:active,.button_click_5:active{
+    background: rgba(255, 255, 255, 0.8);
 }
-.butan{
+.button h3{
+    display: contents;
+}
+.table{
     position: relative;
-    width: 1120px;
-    height: 360px;
+    width: 87.5vw;
+    height: 40vh;
     top: 24vh;
-    left: calc(50% - 1120px/2 - 5VW);
+    left: 6vw;
     margin-top: 9vh;
 }
-.butan_text{
+.butan_pic,.period_pic,.kap_pic,.kana_pic,.atlant_pic{
+    position: absolute;
+    float: left;
+    left: 0;
+    opacity: 0;
+}
+.butan_text,.period_text,.kap_text,.kana_text,.atlant_text{
+    position: absolute;
     display: block;
     width: 50%;
     height: 50%;
     float: right;
+    right: 0;
+    opacity: 0;
 }
 .button_flight{
     cursor: pointer;
@@ -271,11 +298,15 @@ html{
     width: 280px;
     height: 80px;
     left: 44vw;
-    top: 32vh;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F8F8F8 7.29%, #D5D5D5 94.27%, #ACBCC2 100%);
-    box-shadow: 0 1px rgb(255 255 255 / 20%) inset, 0 3px 5px rgb(0 1 6 / 50%), 0 0 1px 1px rgb(0 1 6 / 20%);
+    bottom: 0;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 44px;
     transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .button_flight:hover{
     background: linear-gradient(180deg, #FFFFFF 0%, #f0f0f0 7.29%, #bdbdbd 94.27%, #9facb1 100%);

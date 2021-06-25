@@ -1,0 +1,234 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+body{
+    width: 100vw;
+    height: 538vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+h1 {
+    position: absolute;
+    top: 27vh;
+    width: 100%;
+    color: white;
+    font-family: 'Prosto One';
+    font-size: 80px;
+    line-height: 90.69%;
+    text-align: center;
+    margin-bottom: 9vh;
+}
+h2{
+    position: absolute;
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 97.69%;
+    color: #FFFFFF;
+    text-decoration: none;
+    float: left;
+}
+.p_img_1,.p_img_2,.p_img_3,.p_img_4,.b_img_1,.b_img_2,.b_img_3,.b_img_4,.a_img_1,.a_img_2,.a_img_3,.a_img_4{
+    position: absolute;
+    float: right;
+    right: 0;
+}
+.period, .butan, .atlant{
+    position: relative;
+    display: flex;
+    height: 760px;
+    width: 87.5%;
+    top: 44.5vh;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+.p_img_1{
+    right: 400px;
+}
+.p_img_2{
+    top: 320px;
+    right: 400px;
+}
+.p_img_3{
+    top: 120px;
+}
+.p_img_4{
+    bottom: 0;
+    right: 200px;
+}
+.kap, .kana{
+    position: relative;
+    display: flex;
+    height: 760px;
+    width: 87.5%;
+    top: 44.5vh;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+.kap_img_1,.kap_img_2,.kap_img_3,.kap_img_4,.k_img_1,.k_img_2,.k_img_3,.k_img_4{
+    position: absolute;
+    float: left;
+    left: 0;
+}
+.kap h2, .kana h2{
+    float: right;
+    right: 0;
+}
+.kap_img_1{
+    left: 400px;
+    top: 0;
+}
+.kap_img_2{
+    left: 200px;
+    top: 320px;
+}
+.kap_img_3{
+    left: 680px;
+    top: 320px;
+}
+.kap_img_4{
+    left: 680px;
+    bottom: 0;
+}
+.butan,.kana,.atlant{
+    height: 680px;
+}
+.b_img_1{
+    top: 0;
+    left: 200px;
+}
+.b_img_2{
+    top: 200px;
+    left: 320px;
+}
+.b_img_3{
+    top: 80px;
+    right: 240px;
+}
+.b_img_4{
+    bottom: 0;
+    left: 320px;
+}
+.k_img_1{
+    left: 520px;
+    top: 0;
+}
+.k_img_2{
+    left: 320px;
+    top: 120px;
+}
+.k_img_3{
+    left: 240px;
+    bottom: 0;
+}
+.k_img_4{
+    left: 640px;
+    top: 320px;
+}
+.a_img_1{
+    left: 240px;
+    top: 0;
+}
+.a_img_2{
+    left: 360px;
+    top: 240px;
+}
+.a_img_3{
+    left: 560px;
+    top: 80px;
+}
+.a_img_4{
+    left: 160px;
+    bottom: 0;
+}
+.footer{
+    position: absolute;
+    width: 94vw;
+    bottom: 0;
+    top: 512vh;
+    display: flex;
+    height: 4vh;
+    margin: 160px 40px 40px 40px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.icon{
+    margin-right: 20px;
+}
+.footer h4{
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 97.69%;
+    color: #FFFFFF;
+    right: 0;
+    text-decoration-line: none;
+    padding-top: 0px;
+    top: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 94vw;
+    display: flex;
+    height: 4vh;
+    padding: 40px 40px 40px 40px;
+    justify-content: space-between;
+    background: none;
+}
+.logo{
+    position: absolute;
+    color: white;
+    font-family: 'Prosto One', cursive;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all .1s ease-in;
+}
+.burger_menu{
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    margin-right: 40px;
+    right: 0;
+}
+.burger_menu span{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 10px;
+    background: white;
+}
+.ellipse_1{
+    position: absolute;
+    height: 340px;
+    width: 340px;
+    left: 21vw;
+    top: 61vh;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+.ellipse_2{
+    position: absolute;
+    height: 460px;
+    width: 460px;
+    left: 20vw;
+    top: 254.5vh;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+.ellipse_3{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 24vw;
+    top: 450vh;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
