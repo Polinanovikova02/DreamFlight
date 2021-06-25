@@ -11,8 +11,9 @@ body{
     width: 94vw;
     display: flex;
     height: 4vh;
-    margin: 40px 40px 0 40px;
+    padding: 40px 40px 40px 40px;
     justify-content: space-between;
+    background: black;
 }
 .logo{
     position: absolute;
@@ -21,14 +22,15 @@ body{
     font-size: 24px;
     text-decoration: none;
     transition: all .1s ease-in;
+    margin-left: 40px;
 }
 .burger_menu{
     display: block;
     position: absolute;
     width: 80px;
     height: 20px;
-    top: 0;
-    right: 0;
+    right: 40px;
+    float: right;
 }
 .burger_menu span{
     display: block;

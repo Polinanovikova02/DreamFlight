@@ -180,7 +180,7 @@ h2{
     height: 4vh;
     padding: 40px 40px 40px 40px;
     justify-content: space-between;
-    background: none;
+    background: black;
 }
 .logo{
     position: absolute;

@@ -15,6 +15,7 @@ body{
     height: 4vh;
     padding: 40px 40px 40px 40px;
     justify-content: space-between;
+    background: black;
 }
 .logo{
     position: absolute;
@@ -215,6 +216,16 @@ th:nth-of-type(3), th:nth-of-type(4), th:nth-of-type(5){
     border-radius: 44px;
     right: 0;
 }
+.button_2:hover{
+    background: linear-gradient(180deg, #FFFFFF 0%, #f0f0f0 7.29%, #bdbdbd 94.27%, #9facb1 100%);
+}
+.button_2:active{
+    background: linear-gradient(180deg,  #4e4e4e 0%,  #505050 100%);
+    box-shadow:
+     0 0 1px rgba(0, 0, 0, 0.637) inset,
+     0 2px 3px rgba(0, 0, 0, 0.76) inset,
+     0 1px 1px rgba(255, 255, 255, 0.5);
+  }
 h4{
     position: absolute;
     color: white;

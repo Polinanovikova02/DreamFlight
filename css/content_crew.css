@@ -213,8 +213,9 @@ h3{
     width: 94vw;
     display: flex;
     height: 4vh;
-    margin: 40px 40px 0 40px;
+    padding: 40px 40px 40px 40px;
     justify-content: space-between;
+    background: black;
 }
 .logo{
     position: absolute;
@@ -229,7 +230,7 @@ h3{
     position: absolute;
     width: 80px;
     height: 20px;
-    top: 0;
+    margin-right: 40px;
     right: 0;
 }
 .burger_menu span{
